@@ -11,3 +11,9 @@ Alternatively, you can deploy it using this Heroku Button:
 For more information about using Python on Heroku, see these Dev Center articles:
 
 - [Python on Heroku](https://devcenter.heroku.com/categories/python)
+
+## Simulating slow requests
+
+The `/sleep/` endpoint will sleep for 1 second before rendering a response.
+
+You can configuring the delay in millseconds by passing the `ms` querystring param: `/sleep/?ms=3000`
