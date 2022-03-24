@@ -1,4 +1,4 @@
 django
 gunicorn
 django-heroku
-judoscale-python >= 0.0.3
+judoscale-python >= 0.0.4
